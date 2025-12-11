@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
@@ -34,8 +33,8 @@ const Footer = () => {
                             <li><a href="/#about">About Us</a></li>
                             <li><a href="/#portfolio">Portfolio</a></li>
                             <li><a href="/#contact">Contact</a></li>
-                            <li><Link to="/privacy-policy">Privacy Policy</Link></li>
-                            <li><Link to="/terms-and-conditions">Terms & Conditions</Link></li>
+                            <li><a href="/privacy-policy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
+                            <li><a href="/terms-and-conditions.html" target="_blank" rel="noopener noreferrer">Terms & Conditions</a></li>
                         </ul>
                     </div>
 
